@@ -1,0 +1,118 @@
+Data Types:
+
+1.What are the basic data types in Python?
+
+Answer: The basic data types in Python are integers, floating-point numbers, strings, booleans, and None.
+
+2.Explain the difference between mutable and immutable data types.
+
+Answer: Mutable data types can be modified after creation (e.g., lists, dictionaries), while immutable data types cannot be changed (e.g., integers, strings, tuples).
+
+3.How do you convert one data type to another in Python?
+
+Answer: You can use functions like int(), float(), str(), list(), and others to convert between data types.
+
+4.What is dynamic typing in Python?
+
+Answer: Dynamic typing means that variable types are determined at runtime, allowing you to assign different data types to the same variable.
+
+5.What is the None data type in Python, and how is it used?
+
+Answer: None is a special data type representing the absence of a value. It is often used as a placeholder or to indicate that a variable has no value.
+
+6.Explain the use of the is operator in Python.
+
+Answer: The is operator checks if two variables reference the same object in memory. It returns True if they do and False otherwise.
+
+Operators:
+
+1.What is the difference between == and is operators in Python?
+
+Answer: == checks if two values are equal, while is checks if two variables reference the same object in memory.
+
+2.Explain the use of the ternary conditional operator x if condition else y.
+
+Answer: It is a concise way to write an if-else statement. If the condition is True, it returns x; otherwise, it returns y.
+
+3.What is operator overloading in Python?
+
+Answer: Operator overloading allows you to define custom behavior for operators such as +, -, or * for user-defined classes.
+
+4.How do you perform integer division in Python?
+
+Answer: Integer division is performed using the // operator, which returns the floor of the division result as an integer.
+
+5.What is the difference between / and // operators in Python?
+
+
+Answer: / performs float division, while // performs integer division.
+
+Conditional Statements:
+
+1.Explain the if, elif, and else statements in Python.
+
+Answer: if is used to test a condition, elif (short for "else if") is used for additional conditions, and else is the default if no previous conditions are met.
+
+2.How do you write a nested if statement in Python?
+
+Answer: You can place one if statement inside another to create a nested if statement.
+
+3.What is the purpose of the pass statement in Python?
+
+Answer: The pass statement is a placeholder used when no action is required. It allows you to have a syntactically correct empty block of code.
+
+4.Explain the use of the assert statement.
+
+Answer: The assert statement is used for debugging. It checks a condition and raises an exception if the condition is False.
+
+5.What are the truthy and falsy values in Python?
+
+Answer: In Python, values like non-zero numbers, non-empty strings, and non-empty containers are considered truthy, while 0, None, and empty objects are falsy.
+
+Functions:
+
+1.What is a function in Python, and how do you define one?
+
+Answer: A function is a reusable block of code that performs a specific task. You can define a function using the def keyword, followed by the function name and parameters.
+
+2.Explain the difference between parameters and arguments in a function.
+
+Answer: Parameters are placeholders in the function definition, while arguments are the actual values passed to the function when it is called.
+
+3.What is a default argument in Python functions?
+
+Answer: A default argument is a parameter with a predefined value. If no value is provided for that parameter when calling the function, the default value is used.
+
+4.How do you return multiple values from a function in Python?
+
+Answer: You can return multiple values from a function by packing them into a tuple, list, or another data structure, and then unpacking them when calling the function.
+
+5.Explain the concept of scope and namespaces in Python functions.
+
+Answer: Scope defines the region where a variable is accessible, and namespaces are containers that store variable names and their values. Python has local, enclosing, global, and built-in scopes.
+
+6.What is a lambda function in Python, and how is it used?
+
+Answer: A lambda function is an anonymous function defined using the lambda keyword. It is typically used for small, simple operations and can be passed as an argument to higher-order functions like map, filter, and sorted.
+
+Looping Statements:
+
+1.What is the purpose of the break and continue statements in loops?
+
+Answer: The break statement is used to exit a loop prematurely, while the continue statement is used to skip the current iteration and proceed to the next iteration.
+
+2.Explain the for loop in Python.
+
+Answer: The for loop is used for iterating over a sequence (e.g., a list, tuple, or string). It executes a block of code for each item in the sequence.
+
+3.Explain the while loop in Python.
+
+Answer: The while loop is used to repeatedly execute a block of code as long as a condition is True.
+
+4.How do you iterate through a dictionary using loops in Python?
+
+Answer: You can iterate through a dictionary using a for loop, typically by using the items() method.
+
+5.What are the differences between the for loop and the while loop in Python?
+
+Answer: The main difference is that the for loop is used for iterating over a sequence, while the while loop is used for executing code as long as a condition is True.
